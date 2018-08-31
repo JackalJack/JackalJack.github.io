@@ -1,11 +1,4 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8" />
-		<title>anking_table</title>
-</head>	
-<body>
-<?php
+﻿<?php
 
 @header('Access-Control-Allow-Origin: *');
 
@@ -55,5 +48,3 @@ while($row = mysql_fetch_row($q4)){
 }
 //php_code
 ?>
-</body>
-</html>
